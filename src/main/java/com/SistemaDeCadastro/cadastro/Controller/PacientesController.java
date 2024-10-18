@@ -22,7 +22,7 @@ public class PacientesController {
     PacienteService pacienteService;
 
     @PostMapping
-    public ResponseEntity<?> createFuncionario(@RequestBody CreatePacienteDto dto) {
+    public ResponseEntity<?> CreatePaciente(@RequestBody CreatePacienteDto dto) {
 
         System.out.println(dto.getNome());
         System.out.println(dto.getMedico().getNome());
